@@ -1,17 +1,17 @@
 // Your web app's Firebase configuration
-var firebaseConfig = {
-    apiKey: "AIzaSyDI8zmjvP0OGNL6OMPC66P_muvcu7v8C6E",
-    authDomain: "smart-tech-4bfd3.firebaseapp.com",
-    databaseURL: "https://smart-tech-4bfd3-default-rtdb.firebaseio.com",
-    projectId: "smart-tech-4bfd3",
-    storageBucket: "smart-tech-4bfd3.appspot.com",
-    messagingSenderId: "179404506131",
-    appId: "1:179404506131:web:bced577deb717ae4daabe6"
-};
+// var firebaseConfig = {
+//     apiKey: "AIzaSyDI8zmjvP0OGNL6OMPC66P_muvcu7v8C6E",
+//     authDomain: "smart-tech-4bfd3.firebaseapp.com",
+//     databaseURL: "https://smart-tech-4bfd3-default-rtdb.firebaseio.com",
+//     projectId: "smart-tech-4bfd3",
+//     storageBucket: "smart-tech-4bfd3.appspot.com",
+//     messagingSenderId: "179404506131",
+//     appId: "1:179404506131:web:bced577deb717ae4daabe6"
+// };
 
-// Initialize Firebase
-const app = firebase.initializeApp(firebaseConfig);
-const db = firebase.database();
+// // Initialize Firebase
+// const app = firebase.initializeApp(firebaseConfig);
+// const db = firebase.database();
 
 
 function post_comment() {
