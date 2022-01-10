@@ -694,7 +694,12 @@ blockquote {
     transform-style: preserve-3d;
 }
 
-.job-card:hover {
+.job-card.slide-in.from-left.fade-in:hover {
+    -webkit-transform: translate3d(0px, 0px, 10px);
+    transform: translate3d(0px, 0px, 10px);
+}
+
+.job-card.slide-in.from-right.fade-in:hover {
     -webkit-transform: translate3d(0px, 0px, 10px);
     transform: translate3d(0px, 0px, 10px);
 }
